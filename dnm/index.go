@@ -2,7 +2,7 @@ package dnm
 
 import (
 	"fmt"
-	"github.com/crowdmob/goamz/dynamodb"
+	"github.com/alimoeeny/goamz/dynamodb"
 )
 
 type iKeySchema interface {

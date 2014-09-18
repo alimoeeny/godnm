@@ -1,10 +1,10 @@
 package dnm_test
 
 import (
-	"github.com/crowdmob/goamz/dynamodb"
+	"github.com/alimoeeny/goamz/dynamodb"
+	"github.com/alimoeeny/godnm/dnm"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/superduper/godnm/dnm"
 )
 
 func assertHasKey(d []dynamodb.KeySchemaT, name, typ string) bool {

@@ -1,6 +1,6 @@
 package dnm
 
-import "github.com/crowdmob/goamz/dynamodb"
+import "github.com/alimoeeny/goamz/dynamodb"
 
 /**
 LocalSecondary Index
